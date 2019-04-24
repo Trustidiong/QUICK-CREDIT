@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="contactStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        Quick Credit
+    </title>
+</head>
+
+<body>
+    <div id="nav">
+        <div id="logo">
+            Quick Credit
+        </div>
+
+        <nav>
+            <ul>
+
+                <li> <a href="index.html">Home</a> </li>
+                <li><a href="aboutUs.html">About Us</a> </li>
+                <li><a href="contact.html">Contact</a> </li>
+                <li><a href="faqs.html">FAQs</a></li>
+
+            </ul>
+        </nav>
+
+    </div>
+
+    <div id="contactbody">
+
+        <div id="contactDiv">
+            <h3><strong>Register to apply for a loan</strong></h3>
+            <form method="POST" action="">
+                <table>
+                    <tr>
+                        <td>First Name:</td>
+                        <td><input type="text" id="firstname" placeholder="Enter your first name" class="inputs"></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name:</td>
+                        <td><input type="text" id="lastname" placeholder="Enter your last name" class="inputs"></td>
+                    </tr>
+                    <tr>
+                        <td>Username:</td>
+                        <td><input type="text" id="regUsername" placeholder="Enter your email" class="inputs"></td>
+                    </tr>
+                    <tr><br /></tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td><input type="password" id="regPassword" placeholder="Password" class="inputs"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Address:</td>
+                        <td><input type="text" id="Address" placeholder="Enter your address" class="inputs"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button type="submit" id="registerButton" onclick="User()">Register</button>
+                        </td>
+
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td></td>
+                        <td><button type="Reset" id="logInButton">Cancel</button></td>
+                    </tr>
+
+                </table>
+            </form>
+        </div>
+    </div>
+    <footer id="footer">
+        <p>&copy 2019 | Trust Idiong</p>
+    </footer>
+
+</body>
